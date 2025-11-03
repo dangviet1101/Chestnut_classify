@@ -1,0 +1,14 @@
+# Real-time crack/defect detection config
+# Change these if needed.
+source: 0              # 0 = default webcam; or "path/to/video.mp4" or folder of images
+weights: models/best.pt
+device: 0              # 0 for GPU:0, "cpu" to force CPU
+imgsz: 640
+conf: 0.25
+iou: 0.5
+save: true             # save annotated frames to runs/detect/realtime
+show: false            # true = show live window (press ESC to quit)
+half: true             # FP16 inference if GPU supports it
+vid_stride: 1          # skip frames if >1
+project: runs
+name: realtime

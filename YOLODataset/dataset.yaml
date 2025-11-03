@@ -1,0 +1,8 @@
+path: \\?\D:\An\Final_deadline\chestnut_out\cropped\YOLODataset
+train: images/train
+val: images/val
+test:
+
+names:
+    0: crack
+    1: defect

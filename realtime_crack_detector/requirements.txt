@@ -1,0 +1,6 @@
+ultralytics==8.3.222
+opencv-python
+pyyaml
+# If you export to ONNX instead of .pt, uncomment exactly one of these:
+# onnxruntime-gpu
+# onnxruntime
